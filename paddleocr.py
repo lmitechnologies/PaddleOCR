@@ -20,7 +20,7 @@ __dir__ = os.path.dirname(__file__)
 
 import paddle
 
-sys.path.append(os.path.join(__dir__, ''))
+sys.path.insert(0, os.path.join(__dir__, ''))
 
 import cv2
 import logging
